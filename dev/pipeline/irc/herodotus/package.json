@@ -1,0 +1,23 @@
+{
+  "name": "herodotus",
+  "private": true,
+  "version": "0.1.7",
+  "description": "An IRC node bot that logs a channel's activity",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egladman/herodotus.git"
+  },
+  "author": "Eli Gladman <eli.gladman@gmail.com> (http://eli.gladman.xyz)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/egladman/herodotus/issues"
+  },
+  "homepage": "https://github.com/egladman/herodotus#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "irc": "0.3.6",
+    "mkdirp": "^0.5.1",
+    "yargs": "^4.1.0"
+  }
+}
