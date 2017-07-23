@@ -5,7 +5,12 @@ Adaptors (key: Value)
 
  CreatedAt => "July 05, 2017 at 02:50AM" [%b %d, %Y at %H:%M%p] > 
 
- to
+ 2PACX-1vRrVw6mrRuubgrBiXjnBIRl3WGq0rgWIMMww5sFlp_NgR_T0sYhdCoXGd4Rl89suTNvCsNoNJRZHLWL
+
+ https://docs.google.com/spreadsheets/d/e/2PACX-1vQcXSz5dVS-mRxf3Dsu9h-mQVgVv1U3Gl6qqCOjPIqXbDrdtvmWb71ZxRyg5QypGTLZnkaqx8R6-voI/pubhtml
+https://docs.google.com/spreadsheets/d/e/2PACX-1vQcXSz5dVS-mRxf3Dsu9h-mQVgVv1U3Gl6qqCOjPIqXbDrdtvmWb71ZxRyg5QypGTLZnkaqx8R6-voI/pubhtml
+
+2PACX-1vQcXSz5dVS-mRxf3Dsu9h-mQVgVv1U3Gl6qqCOjPIqXbDrdtvmWb71ZxRyg5QypGTLZnkaqx8R6-voI
 
 
 >>> from time import gmtime, strftime
@@ -64,5 +69,8 @@ import json
 import pandas as pd
 
 df = pd.DataFrame.from_records(map(json.loads, json_lst))
+
+
+gsjson 1hAT5hBv70fLAPRCGRBf8DKSXpB68abyfGAfG-allZU digi.dgb -b
 
 
