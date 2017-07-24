@@ -22,16 +22,18 @@ sprintf strptime()
 Scrap -> Scrub -> Store -> Recall
 
 
+
+
+
 naming convention ideas ->> twitter
-adaptor convertning JSON   PANDAS_JSON (WWWWHASH)
+adaptor convertning JSON
+
+   PANDAS_JSON (WWWWHASH)
+
+
 builder --> mysql 
     
-    create table [who, what, where, when, why[message], hashlocation]
-
-
-gsjson
-
-
+    create table [UserName, tText, LinkToTweet, CreatedAt, why[message], hashlocation]
 
   Usage: gsjson <spreadsheet-id> <file> [options]
 
@@ -71,6 +73,12 @@ import pandas as pd
 df = pd.DataFrame.from_records(map(json.loads, json_lst))
 
 
-gsjson 1hAT5hBv70fLAPRCGRBf8DKSXpB68abyfGAfG-allZU digi.dgb -b
+#digibyte
+gsjson 1hAT5hBv70fLAPRCGRBf8DKSXpB68abyfGAfG-allZU [pair].json -b
+
+#eth
+1MQtl18A_u-PyzdXsFsQrYRIQn_VBAbeAFRDwtd29m2o
+
+
 
 
